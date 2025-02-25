@@ -6,13 +6,12 @@ https://docs.google.com/document/d/1RqJhk-pRDuAk4pH1uqbY9-8uwAqEXB9eRQWLSMM_9sI/
 
 ### Копирование проекта
 ```shell
-mkdir django_stripe
-cd ./django_stripe
 git clone https://github.com/romich995/stripe_app.git
 ```
 
 ### Билдим проект
 ```shell
+cd ./stripe_app
 docker compose build
 ```
 
